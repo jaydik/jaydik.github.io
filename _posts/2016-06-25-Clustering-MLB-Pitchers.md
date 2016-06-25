@@ -2,7 +2,7 @@
 layout: post
 title:  "Clustering MLB Pitchers (part 1)"
 date:   2016-06-25
-categories: jekyll update
+categories: analysis
 ---
 
 In late December 2015, I participated in TrueMedia's baseball [hackathon](http://www.trumedianetworks.com/hackathon/).
