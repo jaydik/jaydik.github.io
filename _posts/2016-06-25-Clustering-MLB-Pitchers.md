@@ -108,7 +108,7 @@ Lastly, `pz` is the height of the ball above the ground. Thus, I can use `szb`, 
 for a pitches' vertical location. After all is said and done, what I get is pitches labeled ''aggressive'' as shown in the picture below.
 Also plotted is the rulebook strikezone, in dashed line. The data used in the plot is taken from the 2015 World Series between the Royals and Mets.
 
-![aggression plot]({{ site.url }}/pics/aggplot.pdf)
+![aggression plot]({{ site.url }}/pics/aggplot.svg)
 
 
 #### Whiff Percentage (WHIFF%)
