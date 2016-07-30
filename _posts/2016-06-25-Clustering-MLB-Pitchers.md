@@ -121,4 +121,4 @@ $$
 In other words, of all the times the batter swung the bat, how many times did he miss the ball completely?
 This is my (rather uninspired) way of measuring pitchers who have ''swing-and-miss stuff''.
 
-In [part two]({% post_url 2016-06-25-Clustering-MLB-Pitchers-2 %}), I look at two pitchers specifically and how they stack up in our metrics, then analyze some of the clusters that resulted from my K-means analysis.
+In [part two]({% post_url 2016-07-30-Clustering-MLB-Pitchers-2 %}), I look at two pitchers specifically and how they stack up in our metrics, then analyze some of the clusters that resulted from my K-means analysis.
