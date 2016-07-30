@@ -40,3 +40,57 @@ can mean the world in terms of outcome. The point being here not to bash Nate (I
 Shifting focus from individual pitchers, we can think of the clustering as taking large groups of pitchers that have similar
 ratings in each of the derived metrics, and "averaging" their ratings to obtain a group of pitchers that behaves similarly, which
 hopefully would also create groups that receive similar results.
+
+### Aces
+
+![Aces Radar]({{ site.url }}/pics/SP4.png)
+
+Naturally, we begin with the best of the best, the Aces cluster. As we can see, they throw a ton
+of innings, and miss a ton of bats, using their above average fastballs. They are more aggres-
+sive than your average pitcher. These guys are the ones you want at the front of your rotation.
+What’s interesting is not so much that this cluster contains Bumgarner, Scherzer, and Kershaw, 
+but the Samardzija and Quintana inclusions can give you pause, since they were based on data prior to this year,
+where both pitchers have been impressive. When you look at Samardzija and 
+Quintana against the others by the given metrics, they actually stack up favorably. 
+Also included in this cluster are other Aces such as Jose Fernandez,
+Masahiro Tanaka, Yu Darvish, Sonny Gray, Gerrit Cole, among many others.
+It’s interesting to see that the elite pitchers were grouped together by these metrics. How-
+ever, with the inclusion of some tier 2 and 3 pitchers, it’s clear that these are not sufficient
+conditions for elite pitcher status.
+
+### Almost Aces
+
+![Almost-Aces Radar]({{ site.url }}/pics/SP5.png)
+
+The next group, is what I call “Almost-Aces”. They have above average fastballs, and they use
+them more than average, with a good arsenal of off-speed pitches, but they get below average
+whiffs, and pound the zone a bit more than average. What is interesting about this group
+compared to the Ace group is that this group has significantly higher off-speed differentials,
+but pitch significantly fewer innings on average. Additionally, they have lower whiff rates.
+This suggests they pitch to contact a bit more, and luck being what it is, a certain percentage
+of these hit balls fall, leading to both their reduced performance metrics and inning counts.
+
+
+### Go Ahead, Hit It
+
+![Hit-it Radar]({{ site.url }}/pics/SP3.png)
+
+This is an interesting cluster. They use their fastball significantly more than average, but it is
+about average in terms of velocity. They’re about average in terms of aggression. They don’t
+generate many swings and misses, prompting me to give them the name I did. Due to the
+high amount of contact they induce, they pitch slightly fewer innings than average. Some
+of these guys are borderline belonging to other groups, such as Mark Buehrle, Who pitches
+more innings and throws the fastball less often and less hard than a lot of the pitchers in this
+segment. The prototypes of this group are pitchers like Bartolo Colon, Dan Haren, Lance Lynn, Doug Fister, and Jake Peavy,
+among others.
+
+## Conclusion
+
+These three clusters represented for me a very interesting set. The other clusters 
+generated were a bit more average, almost creating an 'other' bucket for pitchers that
+didn't really fit anywhere. What I find so cool about this analysis is that if I 
+were to ask *a priori* which pitchers you'd put into the three clusters mentioned above,
+the lists of your pitchers, and the pitchers who came out would be very close to one another.
+Again, we used no data on outcome, Wins/Losses, ERA, whip, etc. It could be argued that IP/App
+is a proxy for that, but we avoided explicitly outcome-based statistics, yet still 
+received reasonable clusters of pitchers that fit well with our intuition. 
